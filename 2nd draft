@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+
+h1 {
+  text-align: left;  
+  color: teal;
+  font-size: 40pt;
+  font-family: Helvetica;
+}
+p {
+  color: black;
+  font-size: 20pt;
+  font-family: Helvetica;
+}
+
+}
+#container {
+  position: 
+  width: 600px;
+  margin: 50px auto;
+}
+
+a {
+  padding: 15px;
+  float: left;
+  position: relative;
+}
+
+a img {
+  display: block;
+}
+
+a span {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ddd;
+  padding: 20px;
+}
+
+a:hover span {
+  display: block;
+}
+
+
+</style>
+</head>
+
+<body>
+
+  <h1>Oh Hello</h1>
+
+  <p>Here's some stuff to do</p>
+  <div id="container">
+    <a href="https://github.com/Lilaro">
+<img width="90" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="git">
+    <span> Github</span>
+</a>
+    <a href="https://mail.google.com/mail/u/0/#inbox">
+<img width="80" src="https://image.flaticon.com/icons/png/128/732/732200.png" alt="gmail">
+    <span>gmail</span>
+</a>
+    <a href="https://gothamist.com/">
+<img width="90" src="http://assets.gothamistllc.com/logos/2012/Gothamist.png" alt="gmist">
+    <span>gothamist</span>
+</a>
+    <a href="https://slate.com">
+<img width="90" src="https://www.wellesley.edu/sites/default/files/assets/departments/english/images/slate-logo_x200.jpg" alt="slate">
+    <span>Slate</span>
+</a>
+    <div/>
+
+</body>
+
+</html>
+
+
+
+
+
+
